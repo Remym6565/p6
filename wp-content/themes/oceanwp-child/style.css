@@ -1,0 +1,536 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Template: oceanwp
+Author: OceanWP
+Author URI: https://oceanwp.org/about-oceanwp/
+Description: OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful &amp; professional design. Very fast, responsive, RTL &amp; translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet &amp; mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor &amp; WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/
+Tags: two-columns,right-sidebar,footer-widgets,blog,news,custom-background,custom-menu,post-formats,rtl-language-support,sticky-post,editor-style,threaded-comments,translation-ready,buddypress,custom-colors,featured-images,full-width-template,theme-options,e-commerce,block-styles,wide-blocks,accessibility-ready
+Version: 3.4.4.1686410415
+Updated: 2023-06-10 15:20:15
+
+*/
+
+
+.boutoncommander {
+    margin: 0;
+}
+
+.boutoncommander input,
+.boutoncommander .inputcommander {
+    background: white;
+    max-width: 80px;
+    height: 55px;
+    border-radius: 5px;
+    padding-left: 0px;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 23px;
+    user-select: none;
+
+}
+
+
+.d-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #DC9F96;
+    border-radius: 0px 5px 5px 0px; 
+    color: #ffffff;
+    width: 27px;
+
+}
+
+
+.plus{
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+}
+
+.minus {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+}
+
+.numbervalue {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+header{
+    max-width: 1440px;
+    margin: 15 auto 0;
+}
+
+#header ul {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.textinfo {
+    margin: 0;
+}
+
+.textinfo input{
+    border: 0;
+    background: white;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bar {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+.bar_admin {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+.page-item222 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    background-color:#DC9F96;
+}
+
+.bar_commandermobile {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    list-style-type: none;
+    background-color:#DC9F96;
+}
+
+.logo {
+    width: 200px;
+    height: 19px;
+    left: 10px;
+    top: 0px;
+    padding-left: 15px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    margin: unset;
+}
+
+.d-flex ul {
+    display: flex;
+    margin: 0;
+}
+
+.d-between {
+    display: flex;
+    justify-content: space-between;
+    margin: unset;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.page-item-6988 {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+
+
+
+/* mobile */
+
+
+.mobile {
+    justify-content: center;
+}
+
+
+.logomobile {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    display: flex;
+}
+
+/* Commander */
+
+.menu-item-839, .menu-item-1241 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #DC9F96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.menu-item-839 a, .menu-item-1241 a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Syne', sans-serif;
+    color: white;
+}
+
+
+/* Nous contacter */
+
+.menu-item-840, .menu-item-1242, .menu-item-1243 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.menu-item-840 a, .menu-item-1242 a, .menu-item-1243 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    font-family: 'Syne', sans-serif;
+}
+
+.menu-item-840 :hover, .menu-item-1242 :hover, .menu-item-1243 :hover {
+    color: #3D9448;
+}
+
+.menu-item-839 :hover, .menu-item-1241 :hover {
+    color: #3D9448;
+}
+
+
+
+/* Footer */
+
+.menu-item-1218 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    font-family: 'Syne', sans-serif;
+    list-style: none;
+    user-select: none;
+}
+
+.menu-item-1218 :hover {
+    color: #3D9448;
+}
+
+
+#menu-footer-menu {
+    margin: 15px 0 15px 0px;
+}
+
+.page-header {
+    display: none;
+}
+
+#menu-menu-principal,
+#menu-menu-admin {
+    margin: 0;
+}
+
+/* Desktop et tablette */
+
+@media (min-width: 480px) {
+    .boutoncommander {
+        margin: 0;
+    }
+    
+    .boutoncommander input,
+    .boutoncommander .inputcommander {
+        background: white;
+        max-width: 80px;
+        height: 55px;
+        border-radius: 5px;
+        padding-left: 0px;
+        border: 0;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 23px;
+        user-select: none;
+    
+    }
+    
+    
+    .d-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+        background-color: #DC9F96;
+        border-radius: 0px 5px 5px 0px; 
+        color: #ffffff;
+        width: 27px;
+    
+    }
+    
+    
+    .plus {
+        border-bottom: 1px solid #ffffff;
+        width: 100%;
+    }
+    
+    .minus {
+        border-top: 1px solid #ffffff;
+        width: 100%;
+    }
+    
+    .numbervalue {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    
+    header {
+        max-width: 1440px;
+        margin: 0 auto;
+    
+    }
+    
+    #header ul {
+        flex-direction: row-reverse;
+    }
+    
+    
+    
+    
+    
+    .textinfo {
+        margin: 0;
+    }
+    
+    .textinfo input{
+        border: 0;
+        background: white;
+        width: 100%;
+        height: 55px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .bar {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        list-style-type: none;
+    }
+    
+    .bar_admin {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 50px;
+        list-style-type: none;
+    }
+    
+    .page-item222 {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        list-style-type: none;
+        background-color:#DC9F96;
+    }
+    
+    .bar_commandermobile {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        list-style-type: none;
+        background-color:#DC9F96;
+    }
+    
+    .logo {
+        width: 200px;
+        height: 19px;
+        left: 10px;
+        top: 0px;
+        padding-left: 15px;
+    }
+    
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .d-flex {
+        display: flex;
+        margin: unset;
+    }
+    
+    .d-flex ul {
+        display: flex;
+        margin: 0;
+    }
+    
+    .d-between {
+        display: flex;
+        justify-content: space-between;
+        margin: unset;
+        align-items: center;
+    }
+    
+    .link {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+    }
+    
+    .page-item-6988 {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .nomargin {
+        margin: 0;
+    }
+    
+    
+    
+    
+    /* mobile */
+    
+    
+    .mobile {
+        justify-content: center;
+    }
+    
+    .d-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .d-wrap ul {
+        margin: unset;
+    }
+    
+    .logomobile {
+        width: 200px;
+        height: 19px;
+        left: 0px;
+        top: 0px;
+        padding-left: 15px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    
+    
+    /* Commander */
+    
+    .menu-item-839, .menu-item-1241 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        list-style-type: none;
+        background-color:#DC9F96;
+    }
+    
+    .menu-item-839 a, .menu-item-1241 a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Syne', sans-serif;
+        color: white;
+    }
+    
+    
+    /* Nous contacter */
+    
+    .menu-item-840, .menu-item-1243 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        list-style-type: none;
+    }
+    
+    .menu-item-1242 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 0px;
+        list-style-type: none;
+    }
+
+    .menu-item-840 a, .menu-item-1242 a, .menu-item-1243 a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        font-family: 'Syne', sans-serif;
+    }
+
+    /* Footer */
+
+    .menu-item-1218 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        font-family: 'Syne', sans-serif;
+        list-style: none;
+    }
+  }
