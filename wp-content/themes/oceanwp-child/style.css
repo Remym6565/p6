@@ -1,4 +1,4 @@
-/*
+/* 
 Theme Name: OceanWP Child
 Theme URI: https://oceanwp.org/
 Template: oceanwp
@@ -276,6 +276,60 @@ header{
     margin: 0;
 }
 
+.ff-custom_html h2 {
+    color: #FFFFFF;
+    font-family: "Syne", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fluentform .ff-el-input--label.ff-el-is-required.asterisk-right label:after {
+    display: none;
+}
+
+.ff-message-success {
+    color: #FFFFFF;
+    font-family: "Syne", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Précommande */
+
+.threecolumns {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.wpcf7-spinner {
+    display: block;
+}
+
+.titresformulaires {
+    font-family: "Syne", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.labelpadding {
+    padding-top: 15px;
+}
+
+.boutonpadding {
+    padding-top: 30px;
+}
+
+.wpcf7 form.invalid, .wpcf7-response-output {
+    font-family: "Syne", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+}
+
 /* Desktop et tablette */
 
 @media (min-width: 480px) {
@@ -533,4 +587,36 @@ header{
         font-family: 'Syne', sans-serif;
         list-style: none;
     }
-  }
+
+    /* Précommande */
+
+    .threecolumns {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .wpcf7-spinner {
+        display: block;
+    }
+
+    .titresformulaires {
+        font-family: "Syne", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    .bordervertical {
+        border: solid 0.5px white;
+    }
+    
+    .labelpadding {
+        padding-top: 15px;
+    }
+
+    .boutonpadding {
+        padding-top: 30px;
+    }
+}
